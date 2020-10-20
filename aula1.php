@@ -1,5 +1,12 @@
 <?php
 
-	$nome = "Junior"
+	$nome = "Junior";
+	var_dump($nome);
+
+	if (isset($nome)){
+		echo "Meu nome é ". $nome;
+
+	}
+	
 
 ?>
